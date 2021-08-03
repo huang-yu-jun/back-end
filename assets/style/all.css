@@ -1,0 +1,288 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block; }
+
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+p, h2, h3, h4, span {
+  color: #212529;
+  font-family: 'Lato'; }
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block; }
+
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.jcsb {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.jcfe {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end; }
+
+.aic {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.fxdc {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+.mr16 {
+  margin-right: 16px; }
+
+.mr23 {
+  margin-right: 23px; }
+
+.mr24 {
+  margin-right: 24px; }
+
+.fxdc {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+.aife {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end; }
+
+.aib {
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline; }
+
+.aic {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.aside {
+  width: 296px;
+  background: #F8F9FA;
+  height: 100vh;
+  padding-top: 40px;
+  position: fixed; }
+  .aside h1 {
+    margin-left: 40px;
+    margin-bottom: 34px;
+    float: left; }
+    .aside h1 a {
+      background-image: url("../images/logo-ANSWER.svg");
+      width: 151px;
+      height: 40px;
+      display: block;
+      text-indent: 101%;
+      overflow: hidden;
+      white-space: nowrap; }
+  .aside ul li {
+    margin-bottom: 29px; }
+    .aside ul li a {
+      color: #000;
+      text-decoration: none;
+      margin-left: 12px;
+      font-family: 'Lato';
+      font-weight: bold; }
+    .aside ul li i {
+      margin-right: 18px;
+      margin-left: 31px;
+      width: 20px;
+      height: 20px; }
+  .aside .now-page {
+    border-left: 4px solid #198754; }
+  .aside .user {
+    margin-left: 32px;
+    margin-bottom: 32px; }
+    .aside .user .user-pic img {
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      margin-right: 16px; }
+    .aside .user .user-info h3 {
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: bold;
+      font-family: 'Lato'; }
+    .aside .user .user-info p {
+      font-size: 14px;
+      line-height: 24px;
+      color: #6C757D;
+      font-family: 'Lato'; }
+
+.main {
+  width: 100%;
+  padding-left: 328px;
+  padding-right: 32px; }
+
+.nav {
+  padding-top: 32px; }
+  .nav .nav-left h2 {
+    font-family: 'Lato';
+    font-size: 24px;
+    line-height: 33px;
+    font-weight: bold;
+    margin-right: 48px; }
+  .nav .nav-left span {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    font-family: 'Lato'; }
+  .nav .nav-left i {
+    margin-left: 8px;
+    color: #198754; }
+  .nav .nav-right .fa-search {
+    margin-right: 26px; }
+
+.content .content-left {
+  width: 320px;
+  margin-right: 16px; }
+  .content .content-left span {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 6px; }
+    .content .content-left span i {
+      margin-left: 8px;
+      color: #198754; }
+  .content .content-left ul li {
+    padding: 12px;
+    border: 1px solid #CED4DA; }
+    .content .content-left ul li .chapter-time p {
+      font-size: 12px;
+      line-height: 24px; }
+    .content .content-left ul li .question p {
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: bold; }
+    .content .content-left ul li .student p {
+      color: #6C757D;
+      font-size: 12px;
+      line-height: 24px; }
+
+.content .content-right {
+  margin-right: 32px;
+  max-width: 584px; }
+  .content .content-right .chapter-editor {
+    background: #F8F9FA;
+    border: 1px solid #CED4DA;
+    padding: 12px 15px; }
+    .content .content-right .chapter-editor .chapter p {
+      font-size: 12px;
+      line-height: 24px; }
+    .content .content-right .chapter-editor .chapter h3 {
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: bold; }
+  .content .content-right ul li {
+    padding: 18px 32px 18px 16px;
+    border: 1px solid #CED4DA; }
+    .content .content-right ul li .student img, .content .content-right ul li .teacher img {
+      margin-bottom: 16px;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      margin-right: 8px; }
+    .content .content-right ul li .student .t-info h3, .content .content-right ul li .student .s-info h3, .content .content-right ul li .teacher .t-info h3, .content .content-right ul li .teacher .s-info h3 {
+      font-size: 16px;
+      line-height: 24px; }
+    .content .content-right ul li .student .t-info p, .content .content-right ul li .student .s-info p, .content .content-right ul li .teacher .t-info p, .content .content-right ul li .teacher .s-info p {
+      font-size: 12px;
+      line-height: 24px;
+      color: #6C757D; }
+    .content .content-right ul li .question {
+      margin: 0px 32px 16px 64px;
+      border-bottom: 1px solid #CED4DA; }
+      .content .content-right ul li .question p {
+        font-size: 14px;
+        line-height: 21px;
+        margin-bottom: 16px; }
+      .content .content-right ul li .question span {
+        color: #198754; }
+      .content .content-right ul li .question .file {
+        width: auto;
+        height: auto;
+        display: inline-block;
+        background: #F8F9FA;
+        border: 1px solid #CED4DA;
+        padding: 11px 16px 10px 12px;
+        margin-bottom: 16px; }
+        .content .content-right ul li .question .file a {
+          color: #212529;
+          text-decoration: none;
+          font-family: "Lato";
+          font-size: 16px;
+          line-height: 24px; }
+          .content .content-right ul li .question .file a i {
+            font-size: 24px;
+            margin-right: 8px; }
+    .content .content-right ul li .answer {
+      margin: 0px 32px 16px 64px; }
+      .content .content-right ul li .answer p {
+        font-size: 14px;
+        line-height: 21px; }
+      .content .content-right ul li .answer span {
+        color: #198754; }
+
+/*# sourceMappingURL=all.css.map */
