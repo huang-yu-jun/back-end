@@ -1,0 +1,222 @@
+.nav{
+    padding-top: 32px;
+    .nav-left{
+        h2{
+            font-family: 'Lato';
+            font-size: 24px;
+            line-height: 33px;
+            font-weight: bold;
+            margin-right: 48px;
+        }
+
+        span{
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: bold;
+            font-family: 'Lato';
+        }
+
+        i{
+            margin-left: 8px;
+            color:$success;
+        }
+    }
+
+    .nav-right{
+        a{
+            color:$primary;
+        }
+    }
+}
+
+.content{
+    .content-left{
+        width: 320px;
+        margin-right: 16px;
+        span{
+            font-size: 16px;
+            line-height: 24px;
+            margin-bottom: 6px;
+            i{
+                margin-left: 8px;
+                color:$success;
+            }
+        }
+
+        ul{
+            li{
+                padding: 12px;
+                border:1px solid $light-gray;
+                
+                .chapter-time{
+                    p{
+                        font-size: 12px;
+                        line-height: 24px;
+                    }
+                }
+
+                .question{
+                    p{
+                        font-size: 16px;
+                        line-height: 24px;
+                        font-weight: bold;
+                    }
+                }
+
+                .student{
+                    p{
+                        color:$gray;
+                        font-size: 12px;
+                        line-height: 24px;
+                    }
+                }
+            }
+        }
+
+
+    }
+
+    .content-right{
+        margin-right: 32px;
+        max-width: 584px;
+        
+        .chapter-editor{
+            background: $secondary;
+            border:1px solid $light-gray;
+            padding: 12px 15px;
+        
+            .chapter{
+                p{
+                    font-size: 12px;
+                    line-height: 24px;
+                }
+
+                h3{
+                    font-size: 16px;
+                    line-height: 24px;
+                    font-weight: bold;
+                }
+            }
+        }
+
+        ul{
+            margin-bottom: 16px;
+            li{
+                padding: 18px 32px 18px 16px;
+                border:1px solid $light-gray;
+
+                .student,.teacher{
+                    img{
+                        margin-bottom: 16px;
+                        border-radius: 50%;
+                        width: 40px;
+                        height: 40px;
+                        margin-right: 8px;
+                    }
+
+                    .t-info,.s-info{
+                        h3{
+                            font-size: 16px;
+                            line-height: 24px;
+                        }
+
+                        p{
+                            font-size: 12px;
+                            line-height: 24px;
+                            color:$gray;
+                        }
+                    }
+                }
+
+                .question{
+                    margin:0px 32px 16px 64px;
+                    border-bottom:1px solid $light-gray;
+                    p{
+                        font-size: 14px;
+                        line-height: 21px;
+                        margin-bottom: 16px;
+                    }
+                    span{
+                        color:$success;
+                    }
+
+                    .file{
+                        width:auto;
+                        height: auto; 
+                        display:inline-block;
+                        background: $secondary;
+                        border:1px solid $light-gray;
+                        padding: 11px 16px 10px 12px;
+                        margin-bottom: 16px;
+
+                        a{
+                            color:$primary;
+                            text-decoration: none;
+                            font-family: $font-family;
+                            font-size: 16px;
+                            line-height: 24px;
+
+                            i{
+                                font-size: 24px;
+                                margin-right: 8px;
+                            }
+                        }
+
+                    }
+                }
+
+                .teacher-editor{
+                    a{
+                        color:$primary;
+                    }
+                }
+
+                .answer{
+                    margin:0px 32px 16px 64px;
+                    p{
+                        font-size: 14px;
+                        line-height: 21px;
+                        // margin-bottom: 16px;
+                    }
+                    span{
+                        color:$success;
+                    }
+                }
+            }
+        }
+
+        .article-footer{
+            margin-bottom: 32px;
+            .arrows{
+                width: 71px;
+                a{
+                    color:$primary;
+                }
+            }
+
+            input.btn-white{
+                border:1px solid $success;
+                border-radius: 2px;
+                background:$white;
+                font-size: 16px;
+                line-height: 24px;
+                font-weight: bold;
+                color:$success;
+                padding:8px 32px;
+            }
+
+            .btn-success{
+                border:1px solid $success;
+                border-radius: 2px;
+                background:$success;
+                font-size: 16px;
+                line-height: 24px;
+                font-weight: bold;
+                color:$white;
+                padding:8px 32px;
+            }
+        }
+    }
+
+}
+

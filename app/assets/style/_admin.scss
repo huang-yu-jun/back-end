@@ -1,0 +1,136 @@
+.nav{
+    margin-bottom: 48px;
+}
+
+.admin-table{
+    table{
+        width: 100%;
+        font-size: 16px;
+        line-height: 24px;
+        font-family: $font-family;
+        margin-bottom: 63px;
+        thead{
+            font-weight: bold;
+            td{
+                border-bottom:1px solid $primary;
+            }
+
+            a{
+                color:$success;
+            }
+        }
+
+        tbody{
+            tr{
+                height: 55px;
+                border-bottom:1px solid $light-gray;
+                td{
+                    vertical-align: middle;
+                }
+                &:hover{
+                    background: $secondary;
+                }
+            }
+
+            a{
+                color:$primary;
+            }
+        }
+    }
+
+    .page{
+        margin-bottom: 32px;
+        ul{
+            border-radius: 2px;
+            li{
+                border:1px solid $success;
+                font-size: 16px;
+                line-height: 24px;
+                width: 32px;
+                height: 32px;
+                align-items: center;
+                display: flex;
+                justify-content: center;
+                i{
+                    color:$success;
+                }
+
+                &:hover{
+                    background: $success;
+                    color:$white;
+                    i{
+                        color:$white;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.modal{
+    h3{
+        font-family: $font-family;
+        font-size: 24px;
+        line-height: 33px;
+        font-weight: bold;
+    }
+
+    .close{
+        background: $white;
+        border:none;
+        font-size: 24px;
+    }
+    
+    .modal-body{
+        padding-top: 0;/*清除bs的pt樣式*/
+        padding-right:32px;
+        padding-left: 32px;
+    }
+
+    h4{
+        font-size: 20px;
+        line-height: 33px;
+        font-family: $font-family;
+        font-weight: bold;
+    }
+
+    h6{
+        font-size: 14px;
+        line-height: 24px;
+        padding-left: 16px;
+    }
+
+    .input-gray{
+        width: 100%;
+        height: 51px;
+        background: $secondary;
+        outline: none;
+        border:none;
+        border-radius: 2px;
+        color:$primary;
+        font-size: 16px;
+        line-height: 24px;
+        padding-left: 16px;
+    }
+
+    .font16lh33{
+        font-size: 16px;
+        line-height: 33px;
+        font-weight: bold;
+    }
+
+    .font14lh33{
+        font-size: 14px;
+        line-height: 33px;
+    }
+
+    .btn-disabled{
+        border:1px solid $gray;
+        color:$light-gray;
+        border-radius: 2px;
+        height: 51px;
+        text-align: center;
+    }
+
+
+}

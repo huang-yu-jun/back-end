@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+p,h2,h3,h4,span{
+    color:$primary;
+    font-family: 'Lato';
+}
+
+.w100{
+    width: 100%;
+}
+
+
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.jcsb{
+    justify-content: space-between;
+}
+
+.jcfe{
+    justify-content: flex-end;
+}
+
+.aic{
+    align-items: center;
+}
+
+.fxdc{
+    flex-direction: column;
+}
+
+.mr16{
+    margin-right: 16px;
+}
+
+.mr23{
+    margin-right: 23px;
+}
+
+.mr24{
+    margin-right: 24px;
+}
+
+.mr26{
+    margin-right: 26px;
+}
+
+.mb16{
+    margin-bottom: 16px;
+}
+
+.mb18{
+    margin-bottom: 18px;
+}
+
+.mb19{
+    margin-bottom: 19px;
+}
+
+.mb25{
+    margin-bottom: 25px;
+}
+
+.pb25{
+    padding-bottom: 25px;
+}
+
+
+.fxdc{
+    flex-direction: column;
+}
+
+.aife{
+    align-items: flex-end;
+}
+
+.aib{
+    align-items: baseline;
+}
+
+.aic{
+    align-items: center;
+}
+
+.bt-light-gray{
+    border-bottom: 1px solid $light-gray;
+}
+
+.font-primary{
+    color:$primary;
+}

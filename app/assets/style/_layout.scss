@@ -1,0 +1,94 @@
+.aside{
+    width: 296px;
+    background: #F8F9FA;
+    height: 100vh;
+    padding-top: 40px;
+    position: fixed;
+
+    h1{
+        margin-left: 40px;
+        margin-bottom: 34px;
+        float: left;
+
+        a{
+            background-image: url('../images/logo-ANSWER.svg');
+            width: 151px;
+            height: 40px;
+            display: block;
+            text-indent: 101%;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+    }
+
+    ul{
+
+        li{
+            margin-bottom: 29px;
+
+            a{
+                color:#000;
+                text-decoration: none;
+                margin-left: 12px;
+                font-family: 'Lato';
+                font-weight: bold;
+            }
+
+            i{
+                margin-right: 18px;
+                margin-left: 31px;
+                width: 20px;
+                height: 20px;
+            }
+        }
+    }
+
+    .now-page{
+        border-left:4px solid $success;
+    }
+
+    .user{
+        margin-left: 32px;
+        margin-bottom: 32px;
+        
+        .user-pic{
+            img{
+                border-radius: 50%;
+                width: 40px;
+                height: 40px;
+                margin-right: 16px;
+            }
+        }
+
+        .user-info{
+            h3{
+                font-size: 16px;
+                line-height: 24px;
+                font-weight: bold;
+                font-family: 'Lato';
+            }
+
+            p{
+                font-size: 14px;
+                line-height: 24px;
+                color:$gray;
+                font-family: 'Lato';
+            }
+        }
+    
+    }
+}
+
+.main{
+    width: 100%;
+    padding-left: 328px;
+    padding-right: 32px;
+    
+    
+}
+
+
+
+
+
+

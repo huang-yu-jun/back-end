@@ -1,0 +1,194 @@
+---
+title: Admin
+layout: ./app/layout.ejs
+engine: ejs
+current: Admin
+---
+<div class="nav d-flex jcsb aib">
+    <div class="nav-left d-flex aib">
+        <h2>Admin</h2>
+        <span><i class="fas fa-plus"></i>Add New Admin</span>
+    </div>
+    <div class="nav-right">
+        <a href="#" class="mr23"><i class="fas fa-search"></i></a>
+        <a href="#"><i class="fas fa-bell"></i></a>
+    </div>
+</div>
+<div class="admin-table">
+    <table>
+        <thead>
+            <tr>
+                <td>ID<a href="#"><i class="fas fa-arrow-down"></i></a></td>
+                <td>Name</td>
+                <td>Email</td>
+                <td class="col">Verified</td>
+                <td colspan="2"></td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>#1</td>
+                <td>Emir Wicks</td>
+                <td>emir.wick@mail.com</td>
+                <td>Yes</td>
+                <td><a href=""><i class="fas fa-eye"></i></a></td>
+                <td><a href=""  data-toggle="modal" data-target="#exampleModal"><i class="fas fa-pen"></i></a></td>
+            </tr>
+            <tr>
+                <td>#2</td>
+                <td>Zaina Goldsmith</td>
+                <td>zaina.goldsmith@mail.com</td>
+                <td>Yes</td>
+                <td><a href=""><i class="fas fa-eye"></i></a></td>
+                <td><a href=""><i class="fas fa-pen"></i></a></td>
+            </tr>
+            <tr>
+                <td>#3</td>
+                <td>Mahima Lopez</td>
+                <td>mahima.lopez@mail.com</td>
+                <td>Yes</td>
+                <td><a href=""><i class="fas fa-eye"></i></a></td>
+                <td><a href=""><i class="fas fa-pen"></i></a></td>
+            </tr>
+            <tr>
+                <td>#4</td>
+                <td>Pharrell Murray</td>
+                <td>pharrell.murray@mail.com</td>
+                <td>Yes</td>
+                <td><a href=""><i class="fas fa-eye"></i></a></td>
+                <td><a href=""><i class="fas fa-pen"></i></a></td>
+            </tr>
+            <tr>
+                <td>#5</td>
+                <td>Annika Mcbride</td>
+                <td>annika.mcbride@mail.com</td>
+                <td>Yes</td>
+                <td><a href=""><i class="fas fa-eye"></i></a></td>
+                <td><a href=""><i class="fas fa-pen"></i></a></td>
+            </tr>
+            <tr>
+                <td>#6</td>
+                <td>fatimah.clark@mail.com</td>
+                <td>annika.mcbride@mail.com</td>
+                <td>Yes</td>
+                <td><a href=""><i class="fas fa-eye"></i></a></td>
+                <td><a href=""><i class="fas fa-pen"></i></a></td>
+            </tr>
+            <tr>
+                <td>#7</td>
+                <td>Klaudia Rhodes</td>
+                <td>klaudia.rhodes@mail.com</td>
+                <td>Yes</td>
+                <td><a href=""><i class="fas fa-eye"></i></a></td>
+                <td><a href=""><i class="fas fa-pen"></i></a></td>
+            </tr>
+            <tr>
+                <td>#8</td>
+                <td>Tillie Lucero</td>
+                <td>tillie.lucero@mail.com</td>
+                <td>Yes</td>
+                <td><a href=""><i class="fas fa-eye"></i></a></td>
+                <td><a href=""><i class="fas fa-pen"></i></a></td>
+            </tr>
+            <tr>
+                <td>#9</td>
+                <td>Sabrina Stephenson</td>
+                <td>sabrina.stephenson@mail.com</td>
+                <td>Yes</td>
+                <td><a href=""><i class="fas fa-eye"></i></a></td>
+                <td><a href=""><i class="fas fa-pen"></i></a></td>
+            </tr>
+            <tr>
+                <td>#10</td>
+                <td>Annie Smith</td>
+                <td>annie.smith@mail.com</td>
+                <td>Yes</td>
+                <td><a href="#"><i class="fas fa-eye"></i></a></td>
+                <td><a href="#"><i class="fas fa-pen"  onclick="myModal()"></i></a></td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h3 class="modal-title" id="exampleModalLabel">Edit Admin</h3>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+            <h4 class="mb16">Account</h4>
+                <form method="POST">
+                    <div class="row">
+                        <h6>Name</h6>
+                        <input type="text" class="input-gray"  placeholder="Emir Wicks" disabled>
+                    </div>
+                    <div class="row pb25 bt-light-gray mb25">
+                        <h6>Email</h6>
+                        <input type="email" class="input-gray"  placeholder="emir.wick@mail.com" disabled>
+                    </div>
+                    <h4 class="mb19">Verification</h4>
+                    <div class="d-flex jcsb mb18">
+                        <p><i class="fas fa-check-circle"></i><span class="font16lh33">Verifled</span></p>
+                        <p class="font14lh33">20210801</p>
+                    </div>
+                    <div class="row">
+                        <input type="btn-disabled w100" value="Send Verification Mail" disabled>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect1">Access Level</label>
+                        <select class="form-control" id="exampleFormControlSelect1">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="1" id="Lecture">
+                        <label class="form-check-label" for="Lecture">Lecture</label>
+                        </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="2" id="Coupon">
+                        <label class="form-check-label" for="Coupon">Coupon</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="3" id="Message">
+                        <label class="form-check-label" for="Message">Message</label>
+                        </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="4" id="Setting">
+                        <label class="form-check-label" for="Setting">Setting</label>
+                    </div>
+                    <div class="form-check" style="border-bottom: 1px solid gray;">
+                        <input class="form-check-input" type="checkbox" value="5" id="Task-Menu">
+                        <label class="form-check-label" for="Task-Menu">Task Menu</label>
+                    </div>
+                    <div class="d-flex">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        <p style="color:red">This cannot be undone!</p>
+                    </div>
+                    <div class="row">
+                        <button class="btn btn-outline-danger">
+                            Deactivate This Account
+                        </button>
+                    </div>
+
+
+                </form>
+            </div>
+
+
+            <div class="modal-footer">
+            <button type="button" class="btn btn-outline-success" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-outline-success">Save changes</button>
+            </div>
+        </div>
+        </div>
+    </div>

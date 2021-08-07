@@ -1,0 +1,159 @@
+---
+title: Assignment
+layout: ./app/layout.ejs
+engine: ejs
+current: assignment
+---
+<div class="nav d-flex jcsb aib">
+    <div class="nav-left d-flex aib">
+        <h2>Assignment</h2>
+        <span>All Courses<i class="fas fa-chevron-down"></i></span>
+    </div>
+    <div class="nav-right">
+        <a href="#" class="mr23"><i class="fas fa-search"></i></a>
+        <a href="#"><i class="fas fa-bell"></i></a>
+    </div>
+</div>
+
+<div class="content d-flex">
+    <div class="content-left">
+        <span>All (4)<i class="fas fa-chevron-down"></i></span>
+        <ul>
+            <li>
+                <div class="chapter-time d-flex jcsb">
+                    <div class="chapter">
+                        <p>Chapter Assignment 2</p>
+                    </div>
+                    <div class="time">
+                        <p>4 hrs ago</p>
+                    </div>
+                </div>
+                <div class="question-student d-flex jcsb">
+                    <div class="question">
+                        <p>Please check this file…</p>
+                    </div>
+                    <div class="student">
+                        <p>Emily Wang</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="chapter-time d-flex jcsb">
+                    <div class="chapter">
+                        <p>Chapter Assignment 1</p>
+                    </div>
+                    <div class="time">
+                        <p>12 hrs ago</p>
+                    </div>
+                </div>
+                <div class="quesetion-student d-flex jcsb">
+                    <div class="question">
+                        <p>My Homework</p>
+                    </div>
+                    <div class="student">
+                        <p>David Xu</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="chapter-time d-flex jcsb">
+                    <div class="chapter">
+                        <p>Final Assignment</p>
+                    </div>
+                    <div class="time">
+                        <p>18 hrs ago</p>
+                    </div>
+                </div>
+                <div class="quesetion-student d-flex jcsb">
+                    <div class="question">
+                        <p>Have a problem with this…</p>
+                    </div>
+                    <div class="student">
+                        <p>Tony Wei</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="chapter-time d-flex jcsb">
+                    <div class="chapter">
+                        <p>Final Assignment</p>
+                    </div>
+                    <div class="time">
+                        <p>19 hrs ago</p>
+                    </div>
+                </div>
+                <div class="quesetion-student d-flex jcsb">
+                    <div class="question">
+                        <p>Did I do it right?</p>
+                    </div>
+                    <div class="student">
+                        <p>Christina Lin</p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="content-right">
+        <div class="comments">
+            <p>2 comments</p>
+        </div>
+        <div class="chapter-editor d-flex jcsb aic">
+            <div class="chapter">
+                <p>Chapter Assignment 2 / HTML&CSS</p>
+                <h3>Please check this file for me, thanks!</h3>
+            </div>
+            <div class="editor">
+                <i class="fas fa-ellipsis-v"></i>
+            </div>
+        </div>
+        <ul>
+            <li>
+                <div class="student d-flex">
+                    <img src="./assets/images/emilywang.jpeg" alt="">
+                    <div class="s-info">
+                        <h3>Emily Wang</h3>
+                        <p>10:38 AM (4 hours ago)</p>
+                    </div>
+                </div>
+                <div class="question">
+                    <p>Hi Teacher, the attached file is my homework of chapter 2. And here comes a question: Why in the following code the height of the <span>div</span> is bigger than the height of the <span>img</span> ? There is a gap below the image, but it doesn’t seems to be a padding/margin.<br>What is the gap or extra space below image?</p>
+                    <div class="file">
+                        <a href="#"><i class="fas fa-paperclip"></i>HW-2-David.zip</a>
+                    </div>
+                </div>
+                <div class="teacher-editor d-flex jcsb aic reply">
+                    <div class="teacher d-flex">
+                        <img src="./assets/images/andychen.jpeg" alt="">
+                        <div class="t-info reply">
+                            <h3>Andy Chen (You)</h3>
+                            <p>13:24 AM (1 hours ago)</p>
+                        </div>
+                    </div>
+                    <div class="editor">
+                        <a href="#"><i class="far fa-star mr24"></i></a>
+                        <a href="#"><i class="fas fa-pen"></i></a>
+                    </div>
+                </div>
+                <div class="answer">
+                    <p>Hi David, by default, an image is rendered inline, like a letter so it sits on the same line that a, b, c and d sit on. There is space below that line for the descenders you find on letters like g, j, p and q.
+                        <br><br>You can:
+                        <br><br>
+                                            
+                        <span>● </span>adjust the <span>vertical-align</span> of the image to position it elsewhere (e.g. the <span>middle</span> ) or <br>
+                        <span>● </span>change the <span>display</span> so it isn’t inline.
+                    </p> 　
+                </div>
+            </li>
+        </ul>
+        <div class="article-footer d-flex jcsb aic">
+            <div class="arrows d-flex jcsb">
+                <a href="#" class="mr23"><i class="fas fa-chevron-left"></i></a>
+                <a href="#"><i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="btn d-flex jcfe">
+                <input class="btn-white mr16" type="button" value="Mark as read">
+                <input class="btn-success" id="reply"  type="button"  value="Reply">
+            </div>
+        </div>
+    </div>
+</div>
