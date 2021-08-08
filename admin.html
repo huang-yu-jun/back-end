@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Admin</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="./assets/style/all.css">
+</head>
+
+<body>
+  <div class="wrap d-flex">
+    <aside class="aside d-flex fxdc jcsb">
+      <div class="menu d-flex fxdc">
+        <h1><a href="#">後台網站</a></h1>
+        <ul>
+            <li class="d-flex"><a href="#"><i class="fas fa-chart-bar"></i>Dashboard</a></li>
+            <li class="d-flex"><a href="#"><i class="fas fa-comment-alt"></i>Question</a></li>
+            <li class="d-flex"><a href="assignment.html"><i class="fas fa-list-alt"></i>Assignment</a></li>
+            <li class="d-flex"><a href="#"><i class="fas fa-play-circle"></i>Course</a></li>
+            <li class="d-flex"><a href="admin.html"><i class="fas fa-user-friends"></i>Admin</a></li>
+            <li class="d-flex"><a href="#"><i class="fas fa-cog"></i>Settings</a></li>
+        </ul>
+
+      </div>
+      <div class="user d-flex aic">
+        <div class="user-pic">
+          <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/week5/andychen.jpeg?raw=true" alt="">
+        </div>
+        <div class="user-info">
+          <h3>Andy Chen</h3>
+          <p>andy0401@mail.com</p>
+        </div>
+      </div>
+    </aside>
+    <main class="main">
+
+        <div class="nav d-flex jcsb aib">
+    <div class="nav-left d-flex aib">
+        <h2>Admin</h2>
+        <span><i class="fas fa-plus"></i>Add New Admin</span>
+    </div>
+    <div class="nav-right">
+        <a href="#" class="mr23"><i class="fas fa-search"></i></a>
+        <a href="#"><i class="fas fa-bell"></i></a>
+    </div>
+</div>
+<div class="admin-table">
+    <table>
+        <thead>
+            <tr>
+                <td>ID<a href="#"><i class="fas fa-arrow-down"></i></a></td>
+                <td>Name</td>
+                <td>Email</td>
+                <td class="col">Verified</td>
+                <td colspan="2"></td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>#1</td>
+                <td>Emir Wicks</td>
+                <td>emir.wick@mail.com</td>
+                <td>Yes</td>
+                <td><a href="" data-toggle="modal" data-target="#detailModal"><i class="fas fa-eye"></i></a></td>
+                <td><a href="" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-pen"></i></a></td>
+            </tr>
+            <tr>
+                <td>#2</td>
+                <td>Zaina Goldsmith</td>
+                <td>zaina.goldsmith@mail.com</td>
+                <td>Yes</td>
+                <td><a href=""><i class="fas fa-eye"></i></a></td>
+                <td><a href=""><i class="fas fa-pen"></i></a></td>
+            </tr>
+            <tr>
+                <td>#3</td>
+                <td>Mahima Lopez</td>
+                <td>mahima.lopez@mail.com</td>
+                <td>Yes</td>
+                <td><a href=""><i class="fas fa-eye"></i></a></td>
+                <td><a href=""><i class="fas fa-pen"></i></a></td>
+            </tr>
+            <tr>
+                <td>#4</td>
+                <td>Pharrell Murray</td>
+                <td>pharrell.murray@mail.com</td>
+                <td>Yes</td>
+                <td><a href=""><i class="fas fa-eye"></i></a></td>
+                <td><a href=""><i class="fas fa-pen"></i></a></td>
+            </tr>
+            <tr>
+                <td>#5</td>
+                <td>Annika Mcbride</td>
+                <td>annika.mcbride@mail.com</td>
+                <td>Yes</td>
+                <td><a href=""><i class="fas fa-eye"></i></a></td>
+                <td><a href=""><i class="fas fa-pen"></i></a></td>
+            </tr>
+            <tr>
+                <td>#6</td>
+                <td>fatimah.clark@mail.com</td>
+                <td>annika.mcbride@mail.com</td>
+                <td>Yes</td>
+                <td><a href=""><i class="fas fa-eye"></i></a></td>
+                <td><a href=""><i class="fas fa-pen"></i></a></td>
+            </tr>
+            <tr>
+                <td>#7</td>
+                <td>Klaudia Rhodes</td>
+                <td>klaudia.rhodes@mail.com</td>
+                <td>Yes</td>
+                <td><a href=""><i class="fas fa-eye"></i></a></td>
+                <td><a href=""><i class="fas fa-pen"></i></a></td>
+            </tr>
+            <tr>
+                <td>#8</td>
+                <td>Tillie Lucero</td>
+                <td>tillie.lucero@mail.com</td>
+                <td>Yes</td>
+                <td><a href=""><i class="fas fa-eye"></i></a></td>
+                <td><a href=""><i class="fas fa-pen"></i></a></td>
+            </tr>
+            <tr>
+                <td>#9</td>
+                <td>Sabrina Stephenson</td>
+                <td>sabrina.stephenson@mail.com</td>
+                <td>Yes</td>
+                <td><a href=""><i class="fas fa-eye"></i></a></td>
+                <td><a href=""><i class="fas fa-pen"></i></a></td>
+            </tr>
+            <tr>
+                <td>#10</td>
+                <td>Annie Smith</td>
+                <td>annie.smith@mail.com</td>
+                <td>Yes</td>
+                <td><a href="#"><i class="fas fa-eye"></i></a></td>
+                <td><a href="#"><i class="fas fa-pen"  onclick="myModal()"></i></a></td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h3 class="modal-title" id="exampleModalLabel">Edit Admin</h3>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+            <h4 class="mb16">Account</h4>
+                <form method="POST">
+                    <div class="row">
+                        <h6>Name</h6>
+                        <input type="text" class="input-gray"  placeholder="Emir Wicks" disabled>
+                    </div>
+                    <div class="row pb25 bb-light-gray mb25">
+                        <h6>Email</h6>
+                        <input type="email" class="input-gray"  placeholder="emir.wick@mail.com" disabled>
+                    </div>
+                    <h4 class="mb19">Verification</h4>
+                    <div class="d-flex jcsb mb18">
+                        <p><i class="fas fa-check-circle mr10"></i><span class="font16lh33">Verifled</span></p>
+                        <p class="font14lh33">2020/4/12</p>
+                    </div>
+                    <div class="row pb25 mb25  bb-light-gray">
+                        <input type="button" class="text-center btn-disabled w100" value="Send Verification Mail" disabled>
+                    </div>
+                    <div class="form-group">
+                        <h4 class="mb16">Access Level</h4>
+                        <div class="row pb25 mb25 bb-light-gray">
+                            <select class="w100 ">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
+                        </div>
+                    </div>
+                    <h4 class="mb19">Custom Access</h4>
+                    <div class="form-check mb21">
+                        <input class="form-check-input" type="checkbox" value="1" id="Lecture">
+                        <label class="form-check-label font16lh24" for="Lecture">Lecture</label>
+                        </div>
+                    <div class="form-check mb21">
+                        <input class="form-check-input" type="checkbox" value="2" id="Coupon">
+                        <label class="form-check-label font16lh24" for="Coupon">Coupon</label>
+                    </div>
+                    <div class="form-check mb21">
+                        <input class="form-check-input" type="checkbox" value="3" id="Message">
+                        <label class="form-check-label font16lh24" for="Message">Message</label>
+                        </div>
+                    <div class="form-check mb21">
+                        <input class="form-check-input" type="checkbox" value="4" id="Setting">
+                        <label class="form-check-label font16lh24" for="Setting">Setting</label>
+                    </div>
+                    <div class="form-check mb21 pb25 bb-light-gray">
+                        <input class="form-check-input" type="checkbox" value="5" id="Task-Menu">
+                        <label class="form-check-label font16lh24" for="Task-Menu">Task Menu</label>
+                    </div>
+                    <h4 class="mb19">Deactivate Account</h4>
+                    <div class="d-flex">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        <p class="text-danger mb18">This cannot be undone!</p>
+                    </div>
+                        <input type="button" class="w100 h51 border-danger mb25 bb-light-gray" value="Deactivate This Account">
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline-success w113 h35 border-radisu2" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-success w116 h35 border-radisu2">Update</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+<!-- 明細 -->
+<div class="modal fade" id="detailModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body m32">
+                    <div class="d-flex jcfe">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                    </div>
+                    <div class="row">
+                        <div class="col-4">
+                            <img src="./assets/images/emir.jpeg" width="141px" height="141px" alt="">
+                        </div>
+                        <div class="col-8">
+                            <p>#1</p>
+                            <p>Admin</p>
+                            <p>Emir Wicks</p>
+                            <p>emir.wicks@mail.com</p>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+    </main>
+</div>
+
+  <script src="./assets/js/vendors.js"></script>
+  <script src="./assets/js/all.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
+
+</html>
