@@ -31,8 +31,8 @@ current: Admin
                 <td>Emir Wicks</td>
                 <td>emir.wick@mail.com</td>
                 <td>Yes</td>
-                <td><a href=""><i class="fas fa-eye"></i></a></td>
-                <td><a href=""  data-toggle="modal" data-target="#exampleModal"><i class="fas fa-pen"></i></a></td>
+                <td><a href="" data-toggle="modal" data-target="#detailModal"><i class="fas fa-eye"></i></a></td>
+                <td><a href="" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-pen"></i></a></td>
             </tr>
             <tr>
                 <td>#2</td>
@@ -127,68 +127,103 @@ current: Admin
                         <h6>Name</h6>
                         <input type="text" class="input-gray"  placeholder="Emir Wicks" disabled>
                     </div>
-                    <div class="row pb25 bt-light-gray mb25">
+                    <div class="row pb25 bb-light-gray mb25">
                         <h6>Email</h6>
                         <input type="email" class="input-gray"  placeholder="emir.wick@mail.com" disabled>
                     </div>
                     <h4 class="mb19">Verification</h4>
                     <div class="d-flex jcsb mb18">
-                        <p><i class="fas fa-check-circle"></i><span class="font16lh33">Verifled</span></p>
-                        <p class="font14lh33">20210801</p>
+                        <p><i class="fas fa-check-circle mr10"></i><span class="font16lh33">Verifled</span></p>
+                        <p class="font14lh33">2020/4/12</p>
                     </div>
-                    <div class="row">
-                        <input type="btn-disabled w100" value="Send Verification Mail" disabled>
+                    <div class="row pb25 mb25  bb-light-gray">
+                        <input type="button" class="text-center btn-disabled w100" value="Send Verification Mail" disabled>
                     </div>
                     <div class="form-group">
-                        <label for="exampleFormControlSelect1">Access Level</label>
-                        <select class="form-control" id="exampleFormControlSelect1">
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
-                        </select>
+                        <h4 class="mb16">Access Level</h4>
+                        <div class="row pb25 mb25 bb-light-gray">
+                            <select class="w100 ">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
+                        </div>
                     </div>
-
-                    <div class="form-check">
+                    <h4 class="mb19">Custom Access</h4>
+                    <div class="form-check mb21">
                         <input class="form-check-input" type="checkbox" value="1" id="Lecture">
-                        <label class="form-check-label" for="Lecture">Lecture</label>
+                        <label class="form-check-label font16lh24" for="Lecture">Lecture</label>
                         </div>
-                    <div class="form-check">
+                    <div class="form-check mb21">
                         <input class="form-check-input" type="checkbox" value="2" id="Coupon">
-                        <label class="form-check-label" for="Coupon">Coupon</label>
+                        <label class="form-check-label font16lh24" for="Coupon">Coupon</label>
                     </div>
-                    <div class="form-check">
+                    <div class="form-check mb21">
                         <input class="form-check-input" type="checkbox" value="3" id="Message">
-                        <label class="form-check-label" for="Message">Message</label>
+                        <label class="form-check-label font16lh24" for="Message">Message</label>
                         </div>
-                    <div class="form-check">
+                    <div class="form-check mb21">
                         <input class="form-check-input" type="checkbox" value="4" id="Setting">
-                        <label class="form-check-label" for="Setting">Setting</label>
+                        <label class="form-check-label font16lh24" for="Setting">Setting</label>
                     </div>
-                    <div class="form-check" style="border-bottom: 1px solid gray;">
+                    <div class="form-check mb21 pb25 bb-light-gray">
                         <input class="form-check-input" type="checkbox" value="5" id="Task-Menu">
-                        <label class="form-check-label" for="Task-Menu">Task Menu</label>
+                        <label class="form-check-label font16lh24" for="Task-Menu">Task Menu</label>
                     </div>
+                    <h4 class="mb19">Deactivate Account</h4>
                     <div class="d-flex">
                         <i class="fas fa-exclamation-triangle"></i>
-                        <p style="color:red">This cannot be undone!</p>
+                        <p class="text-danger mb18">This cannot be undone!</p>
                     </div>
-                    <div class="row">
-                        <button class="btn btn-outline-danger">
-                            Deactivate This Account
-                        </button>
-                    </div>
-
-
+                        <input type="button" class="w100 h51 border-danger mb25 bb-light-gray" value="Deactivate This Account">
                 </form>
             </div>
-
-
             <div class="modal-footer">
-            <button type="button" class="btn btn-outline-success" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-outline-success">Save changes</button>
+                <button type="button" class="btn btn-outline-success w113 h35 border-radisu2" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-success w116 h35 border-radisu2">Update</button>
             </div>
         </div>
         </div>
     </div>
+
+<!-- 明細 -->
+<div class="modal fade" id="detailModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                    <div class="d-flex jcfe">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                    </div>
+                    <div class="d-flex">
+                        <div class="pic mr24">
+                            <img src="./assets/images/emir.jpeg" alt="">
+                        </div>
+                        <div class="content">
+                            <p class="mb8 font16lh24">#1</p>
+                            <p class="font16lh24">Admin</p>
+                            <p class="font24lh36 fwb">Emir Wicks</p>
+                            <p class="font14lh24 text-gray mb20">emir.wicks@mail.com</p>
+                            <div class="d-flex jcsb mb28">
+                                <span class="badge bg-light text-dark">Verified</span>
+                                <button class="footerShowBtn">
+                                    <i class="fas fa-chevron-down"></i>
+                                    <i class="fas fa-chevron-up display-none"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footerShow d-flex jcfe">
+                    <input type="button" class="w146 h35 border-danger mb25 mr15" value="Deactivate">
+                    <button type="button" class="mr32 w92 btn btn-outline-success w113 h35 border-radisu2" data-dismiss="modal">Edit</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

@@ -1,5 +1,5 @@
-console.log('Hello!');
-
-$(document).ready(() => {
-  console.log('HesSchool Hello!');
-});
+  $(".footerShowBtn").click(function() {
+    $(".footerShow").toggle();
+    $(".fa-chevron-down").toggle();
+    $(".fa-chevron-up").toggle();
+  });

@@ -41,6 +41,14 @@ img{
     flex-direction: column;
 }
 
+.mr10{
+    margin-right: 10px;
+}
+
+.mr15{
+    margin-right: 15px;
+}
+
 .mr16{
     margin-right: 16px;
 }
@@ -57,6 +65,10 @@ img{
     margin-right: 26px;
 }
 
+.mr32{
+    margin-right: 32px;
+}
+
 .mb16{
     margin-bottom: 16px;
 }
@@ -69,12 +81,28 @@ img{
     margin-bottom: 19px;
 }
 
+.mb20{
+    margin-bottom: 20px;
+}
+
+.mb21{
+    margin-bottom: 21px;
+}
+
 .mb25{
     margin-bottom: 25px;
 }
 
+.mb28{
+    margin-bottom: 28px;
+}
+
 .pb25{
     padding-bottom: 25px;
+}
+
+.m32{
+    margin: 32px;
 }
 
 
@@ -94,10 +122,50 @@ img{
     align-items: center;
 }
 
-.bt-light-gray{
+.bb-light-gray{
     border-bottom: 1px solid $light-gray;
 }
 
 .font-primary{
-    color:$primary;
+    color:$success;
+}
+
+.text-danger{
+    color:$danger;
+}
+
+.text-gray{
+    color:$gray;
+}
+
+.h141{
+height: 141px;
+}
+
+
+
+.border-danger{
+    border:1px solid $danger;
+    background: $white;
+    color:$danger;
+    font-family: $font-family;
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+.fwb{
+    font-weight: bold;
+}
+
+.display-none{
+    display: none;
+}
+
+
+.w146{
+    width: 146px;
+}
+
+.w92{
+    width: 92px;
 }

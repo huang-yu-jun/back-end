@@ -124,13 +124,78 @@
         line-height: 33px;
     }
 
-    .btn-disabled{
-        border:1px solid $gray;
-        color:$light-gray;
-        border-radius: 2px;
-        height: 51px;
-        text-align: center;
+    .font16lh24{
+        font-size: 16px;
+        line-height: 24px;
     }
 
+    .font24lh36{
+        font-size: 24px;
+        line-height: 36px;
+    }
 
+    .font14lh24{
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .btn-disabled{
+        border:1px solid $light-gray;
+        color:$light-gray;
+        background: #fff;
+        border-radius: 2px;
+        height: 51px;
+        // text-align: center;
+    }
+
+    .fa-check-circle{
+        color:$success;
+    }
+
+    select{
+        height: 51px;
+        border-radius: 2px;
+    }
+    
+    .form-check-label{
+        font-family: $font-family;
+    }
+
+    .fa-exclamation-triangle{
+        color:$danger;
+    }
+
+    .w113{
+        width: 113px;
+    }
+
+    .h35{
+        height: 35px;
+    }
+
+    .w116{
+        width: 116px;
+    }
+
+    .border-radisu2{
+        border-radius: 2px;
+    }
+
+    .pic{
+        img{
+            width: 141px;
+            height: 141px;
+        }
+    }
+
+    .footerShowBtn{
+        background: #fff;
+        outline: none;
+        border: none;
+    }
+
+    .footerShow{
+        border: none;
+    }
+    
 }

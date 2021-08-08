@@ -31,7 +31,7 @@
 
 .content{
     .content-left{
-        width: 320px;
+        // width: 320px;
         margin-right: 16px;
         span{
             font-size: 16px;
@@ -78,7 +78,7 @@
 
     .content-right{
         margin-right: 32px;
-        max-width: 584px;
+        // max-width: 100%;
         
         .chapter-editor{
             background: $secondary;
