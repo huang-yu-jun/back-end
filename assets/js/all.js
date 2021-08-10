@@ -1,7 +1,8 @@
 "use strict";
 
-console.log('Hello!');
-$(document).ready(function () {
-  console.log('HesSchool Hello!');
+$(".footerShowBtn").click(function () {
+  $(".footerShow").toggle();
+  $(".fa-chevron-down").toggle();
+  $(".fa-chevron-up").toggle();
 });
 //# sourceMappingURL=all.js.map

@@ -60,6 +60,42 @@ p, h2, h3, h4, span {
   color: #212529;
   font-family: 'Lato'; }
 
+h2 {
+  font-size: 24px; }
+
+h3 {
+  font-size: 20px; }
+
+h4 {
+  font-size: 16px; }
+
+h5 {
+  font-size: 14px; }
+
+h6 {
+  font-size: 12px; }
+
+.text-success {
+  color: #198754; }
+
+.text-danger {
+  color: #DC3545; }
+
+.text-gray {
+  color: #6C757D; }
+
+.font-bold {
+  font-weight: bold; }
+
+.line-height24 {
+  line-height: 24px; }
+
+.line-height33 {
+  line-height: 24px; }
+
+.line-height36 {
+  line-height: 36px; }
+
 .w100 {
   width: 100%; }
 
@@ -97,6 +133,9 @@ img {
 .mr10 {
   margin-right: 10px; }
 
+.mr15 {
+  margin-right: 15px; }
+
 .mr16 {
   margin-right: 16px; }
 
@@ -109,6 +148,12 @@ img {
 .mr26 {
   margin-right: 26px; }
 
+.mr32 {
+  margin-right: 32px; }
+
+.mb4 {
+  margin-bottom: 4px; }
+
 .mb16 {
   margin-bottom: 16px; }
 
@@ -118,14 +163,35 @@ img {
 .mb19 {
   margin-bottom: 19px; }
 
+.mb20 {
+  margin-bottom: 20px; }
+
 .mb21 {
   margin-bottom: 21px; }
 
 .mb25 {
   margin-bottom: 25px; }
 
+.mb28 {
+  margin-bottom: 28px; }
+
+.mb32 {
+  margin-bottom: 32px; }
+
+.pt16 {
+  padding-top: 16px; }
+
+.pb16 {
+  padding-bottom: 16px; }
+
 .pb25 {
   padding-bottom: 25px; }
+
+.p24 {
+  padding: 24px; }
+
+.m8 {
+  margin: 8px; }
 
 .m32 {
   margin: 32px; }
@@ -154,14 +220,8 @@ img {
 .bb-light-gray {
   border-bottom: 1px solid #CED4DA; }
 
-.font-primary {
-  color: #198754; }
-
-.text-danger {
-  color: #DC3545; }
-
-.h51 {
-  height: 51px; }
+.h141 {
+  height: 141px; }
 
 .border-danger {
   border: 1px solid #DC3545;
@@ -170,6 +230,15 @@ img {
   font-family: "Lato";
   font-weight: bold;
   border-radius: 2px; }
+
+.display-none {
+  display: none; }
+
+.w146 {
+  width: 146px; }
+
+.w92 {
+  width: 92px; }
 
 .aside {
   width: 296px;
@@ -414,33 +483,20 @@ img {
         .admin-table .page ul li:hover i {
           color: #fff; }
 
-.modal h3 {
-  font-family: "Lato";
-  font-size: 24px;
-  line-height: 33px;
-  font-weight: bold; }
-
 .modal .close {
   background: #fff;
   border: none;
   font-size: 24px; }
 
 .modal .modal-body {
-  padding-top: 0;
+  padding-top: 32px;
   /*清除bs的pt樣式*/
   padding-right: 32px;
-  padding-left: 32px; }
+  padding-left: 32px;
+  width: 100%; }
 
-.modal h4 {
-  font-size: 20px;
-  line-height: 33px;
-  font-family: "Lato";
-  font-weight: bold; }
-
-.modal h6 {
-  font-size: 14px;
-  line-height: 24px;
-  padding-left: 16px; }
+.modal .content {
+  width: 283px; }
 
 .modal .input-gray {
   width: 100%;
@@ -465,6 +521,14 @@ img {
 
 .modal .font16lh24 {
   font-size: 16px;
+  line-height: 24px; }
+
+.modal .font24lh36 {
+  font-size: 24px;
+  line-height: 36px; }
+
+.modal .font14lh24 {
+  font-size: 14px;
   line-height: 24px; }
 
 .modal .btn-disabled {
@@ -498,5 +562,17 @@ img {
 
 .modal .border-radisu2 {
   border-radius: 2px; }
+
+.modal .pic img {
+  width: 141px;
+  height: 141px; }
+
+.modal .footerShowBtn {
+  background: #fff;
+  outline: none;
+  border: none; }
+
+.modal .footerShow {
+  display: none; }
 
 /*# sourceMappingURL=all.css.map */

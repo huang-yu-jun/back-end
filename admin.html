@@ -149,27 +149,27 @@
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
         <div class="modal-content">
-            <div class="modal-header">
-            <h3 class="modal-title" id="exampleModalLabel">Edit Admin</h3>
+            <div class="d-flex jcsb p24">
+            <h2 class="modal-title line-height33 font-bold m8" id="exampleModalLabel">Edit Admin</h2>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
             </button>
             </div>
             <div class="modal-body">
-            <h4 class="mb16">Account</h4>
+            <h3 class="mb16 line-height33 font-bold">Account</h3>
                 <form method="POST">
                     <div class="row">
-                        <h6>Name</h6>
+                        <h5 class="line-height24 mb4">Name</h5>
                         <input type="text" class="input-gray"  placeholder="Emir Wicks" disabled>
                     </div>
                     <div class="row pb25 bb-light-gray mb25">
-                        <h6>Email</h6>
+                        <h5 class="line-height24">Email</h5>
                         <input type="email" class="input-gray"  placeholder="emir.wick@mail.com" disabled>
                     </div>
                     <h4 class="mb19">Verification</h4>
                     <div class="d-flex jcsb mb18">
                         <p><i class="fas fa-check-circle mr10"></i><span class="font16lh33">Verifled</span></p>
-                        <p class="font14lh33">2020/4/12</p>
+                        <h5 class="line-height33">2020/4/12</h5>
                     </div>
                     <div class="row pb25 mb25  bb-light-gray">
                         <input type="button" class="text-center btn-disabled w100" value="Send Verification Mail" disabled>
@@ -189,30 +189,30 @@
                     <h4 class="mb19">Custom Access</h4>
                     <div class="form-check mb21">
                         <input class="form-check-input" type="checkbox" value="1" id="Lecture">
-                        <label class="form-check-label font16lh24" for="Lecture">Lecture</label>
+                        <label class="form-check-label" for="Lecture"><h4 class="line-height24">Lecture</h4></label>
                         </div>
                     <div class="form-check mb21">
                         <input class="form-check-input" type="checkbox" value="2" id="Coupon">
-                        <label class="form-check-label font16lh24" for="Coupon">Coupon</label>
+                        <label class="form-check-label" for="Coupon"><h4 class="line-height24">Coupon</h4></label>
                     </div>
                     <div class="form-check mb21">
                         <input class="form-check-input" type="checkbox" value="3" id="Message">
-                        <label class="form-check-label font16lh24" for="Message">Message</label>
+                        <label class="form-check-label" for="Message"><h4 class="line-height24">Message</h4></label>
                         </div>
                     <div class="form-check mb21">
                         <input class="form-check-input" type="checkbox" value="4" id="Setting">
-                        <label class="form-check-label font16lh24" for="Setting">Setting</label>
+                        <label class="form-check-label" for="Setting"><h4 class="line-height24">Setting</h4></label>
                     </div>
                     <div class="form-check mb21 pb25 bb-light-gray">
                         <input class="form-check-input" type="checkbox" value="5" id="Task-Menu">
-                        <label class="form-check-label font16lh24" for="Task-Menu">Task Menu</label>
+                        <label class="form-check-label" for="Task-Menu"><h4 class="line-height24">Task Menu</h4></label>
                     </div>
                     <h4 class="mb19">Deactivate Account</h4>
                     <div class="d-flex">
                         <i class="fas fa-exclamation-triangle"></i>
                         <p class="text-danger mb18">This cannot be undone!</p>
                     </div>
-                        <input type="button" class="w100 h51 border-danger mb25 bb-light-gray" value="Deactivate This Account">
+                        <input type="button" class="pt16 pb16 w100 h51 border-danger mb25 bb-light-gray" value="Deactivate This Account">
                 </form>
             </div>
             <div class="modal-footer">
@@ -227,31 +227,43 @@
 <div class="modal fade" id="detailModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
-            <div class="modal-body m32">
-                    <div class="d-flex jcfe">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                    </div>
-                    <div class="row">
-                        <div class="col-4">
-                            <img src="./assets/images/emir.jpeg" width="141px" height="141px" alt="">
+            <div class="modal-body">
+                    <div class="d-flex">
+                        <div class="pic mr24">
+                            <img src="./assets/images/emir.jpeg" alt="">
                         </div>
-                        <div class="col-8">
-                            <p>#1</p>
-                            <p>Admin</p>
-                            <p>Emir Wicks</p>
-                            <p>emir.wicks@mail.com</p>
+                        <div class="content">
+                            <div class="d-flex jcsb w100">
+                                <h3 class="mb8 line-height24">#1</h3>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            
+                            <h4 class="line-height24">Admin</h4>
+                            <h2 class="line-height36 font-bold">Emir Wicks</h2>
+                            <h5 class="line-height24 text-gray mb20">emir.wicks@mail.com</h5>
+                            <div class="d-flex jcsb mb28">
+                                <span class="badge bg-light text-dark">Verified</span>
+                                <button class="footerShowBtn">
+                                    <i class="fas fa-chevron-down"></i>
+                                    <i class="fas fa-chevron-up display-none"></i>
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
+
+                <div class="footerShow d-flex jcfe">
+                    <input type="button" class="footerShow w146 h35 border-danger mb25 mr15" value="Deactivate">
+                    <button type="button" class="footerShow mr32 w92 btn btn-outline-success w113 h35 border-radisu2" data-dismiss="modal">Edit</button>
+                </div>
             </div>
 
         </div>
     </div>
 </div>
+
 
     </main>
 </div>
